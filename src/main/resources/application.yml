@@ -1,0 +1,19 @@
+sfk:
+  providerName: LunaProvider
+  encryptString: KeyForEncryption
+  accessEncryptString: KeyForAccessEncryption
+  scrambleEncryptString: KeyForScrambleEncryption
+  random: SHA1PRNG
+  keyStore: Luna
+  maxArraySize: 5
+  maxPlainTextLength: 100
+  maxCipherTextLength: 1000
+
+spring:
+  datasource:
+    driver-class-name: oracle.jdbc.OracleDriver
+    url: jdbc:oracle:thin:@//localhost:1521/orcl
+    username: OracleUser01
+    password: ZHang123
+
+
